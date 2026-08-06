@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+/* here we are creating the global variable that can be accessible across the css file 
+and only with the help of :root we can create the global space variables 
+in css varible name must start with "--"  */
+:root {
+    --bg-main: #f0f4ff;
+    --primary: #5865F2;
+}
+
+body {
+   background-color: var(--bg-main); 
+   font-family: 'Outfit', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Climate Crisis', sans-serif;
+    line-height: 1.1;
+
+    /* if word is too long so that case with the help of this property we can break some part 
+    this word into the next line  */
+    word-break: break-word;
+}
+
+.navbar {
+
+    /* put all content horizontally  */
+    display: flex;
+
+    /* comp1, comp2, comp3 inside comp1 and comp3 stickyly with left and right side 
+    and then comp2 exist in center with better space */
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 12px 80px;
+    background-color: black;
+    
+    /* when viewer scroll page so this navigation stay as it is not scrolled down  */
+    position: sticky;
+    top: 8px;
+
+    z-index: 999;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 38px;
+    width: auto;
+}
+
+.logo-text {
+    font-family: 'Climate Crisis', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    line-height: 0.8;
+    font-weight: 500;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+    color: var(--primary)
+}
+
+.btn-pill {
+    background-color: white;
+    padding: 13px 32px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+.btn-pill:hover {
+    background-color: #F0F0F0;
+}
