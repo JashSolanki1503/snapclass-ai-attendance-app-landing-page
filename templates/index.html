@@ -74,6 +74,219 @@
         </div>
 
     </header>
+
+    <section id="features" class="features">
+
+        <h2>Innovative Features</h2>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+               <div class="f-icon-box">📸</div>
+  
+               <h3>AI Face Analysis</h3>
+
+               <p>Advanced neural networks recognize every student's face from a single class photo, making attendance instant and accurate.</p>
+            </div>
+
+            <div class="feature-card">
+               <div class="f-icon-box">🎙️</div>
+
+               <h3>Sequential Voice ID</h3>
+
+               <p>Students say "Present" one-by-one, and our audio-AI matches their voice biometrics against stored embeddings in real-time.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="f-icon-box">⛶</div>
+
+                <h3>QR-Drive Roster</h3>
+
+                <p>Course codes generate unique QR codes for instant student enrollment. No more manual entry or data management headaches.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- journey section -->
+    <section id="journey" class="flow-container">
+        <p class="top-indicator">-- Our Workflow --</p>
+
+        <h2>The Teacher's Journey</h2>
+        
+        <div class="flow-step">
+            
+            <div class="flow-content">
+               <div class="step-badge">STEP-01</div>
+
+               <h3>Secure<br> Login</h3>
+
+               <p>
+                  Start your session with our high-security authentication portal. Your data is encrypted and synced across all your devices.
+               </p>
+            </div>
+
+            <div class="flow-image">
+                <img src="{{ url_for('static', filename = 'img/demo/snap-teacher-flow-5.2-photo-attendance.png') }}" alt="landing image 1">
+            </div>
+
+        </div>
+        
+        <div class="flow-step">
+            
+            <div class="flow-content">
+               <div class="step-badge">STEP-02</div>
+
+               <h3>Interactive<br> Dashboard</h3>
+
+               <p>
+                  Manage all your subjects, attendance logs and student rosters from a single, beautiful unified stream.
+               </p>
+            </div>
+
+            <div class="flow-image">
+                <img src="{{ url_for('static', filename = 'img/demo/snap-teacher-flow-5.2-photo-attendance.png') }}" alt="landing image 1">
+            </div>
+
+        </div>
+         
+        <div class="flow-step">
+            
+            <div class="flow-content">
+               <div class="step-badge">STEP-03</div>
+
+               <h3>Course<br> Management</h3>
+
+               <p>
+                  Creating a new subject is a breeze. Just name it, and SnapClass generates everything you need to start tracking.
+               </p>
+            </div>
+
+            <div class="flow-image">
+                <img src="{{ url_for('static', filename = 'img/demo/snap-teacher-flow-5.2-photo-attendance.png') }}" alt="landing image 1">
+            </div>
+
+        </div>
+
+        <div class="flow-step">
+            
+            <div class="flow-content">
+               <div class="step-badge">STEP-04</div>
+
+               <h3>FaceID<br> Attendance</h3>
+
+               <p>
+                  Use high-speed computer vision to scan the entire room. Our AI identifies every student from a single class photo in milliseconds. 
+               </p>
+            </div>
+
+            <div class="flow-image">
+                <img src="{{ url_for('static', filename = 'img/demo/snap-teacher-flow-5.2-photo-attendance.png') }}" alt="landing image 1">
+            </div>
+
+        </div>
+
+        <div class="flow-step">
+            
+            <div class="flow-content">
+               <div class="step-badge">STEP-05</div>
+
+               <h3>VoiceID<br> Attendance</h3>
+
+               <p>
+                  Switch to voice mode for a futuristic roll-call. Students speak sequentially, and our AI matches their unique voice signatures.
+               </p>
+            </div>
+
+            <div class="flow-image">
+                <img src="{{ url_for('static', filename = 'img/demo/snap-teacher-flow-5.2-photo-attendance.png') }}" alt="landing image 1">
+            </div>
+
+        </div>
+
+        <div class="flow-step">
+            
+            <div class="flow-content">
+               <div class="step-badge">STEP-06</div>
+
+               <h3>Actionable<br> Records</h3>
+
+               <p>
+                  Review and manage historical logs. View confidence scores, download CSV reports, and track long-term attendance trends.
+               </p>
+            </div>
+
+            <div class="flow-image">
+                <img src="{{ url_for('static', filename = 'img/demo/snap-teacher-flow-5.2-photo-attendance.png') }}" alt="landing image 1">
+            </div>
+
+        </div>
+
+    </section>      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="tech" class="tech-stack">
+
+        <div class="section-tag">-- Our Backend --</div>
+        <h3>Advanced Tech Stack</h3>
+        
+        <div class="tech-grid">
+            <!-- Card 1 -->
+            <div class="tech-item">
+                <div class="tech-card">
+                    <span class="t-icon">⚡</span>
+                    <p class="card-heading">Streamlit & Flask</p>
+                    <p>Reactive frontend architecture paired with a robust Flask landing layer.</p>
+                </div>
+                <span class="tech-tag">Platform</span>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="tech-item">
+                <div class="tech-card">
+                    <span class="t-icon">👁️</span>
+                    <p class="card-heading">Face Registration</p>
+                    <p>Leveraging FaceRecognition and Dlib for high-fidelity facial biometrics.</p>
+                </div>
+                <span class="tech-tag">Vision AI</span>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="tech-item">
+                <div class="tech-card">
+                    <span class="t-icon">🎙️</span>
+                    <p class="card-heading">Voice Embeddings</p>
+                    <p>Utilizing Resemblyzer and Librosa for unique student voice signatures.</p>
+                </div>
+                <span class="tech-tag">Audio AI</span>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="tech-item">
+                <div class="tech-card">
+                    <span class="t-icon">☁️</span>
+                    <p class="card-heading">Supabase Cloud</p>
+                    <p>Real-time PostgreSQL infrastructure with secure auth and sync.</p>
+                </div>
+                <span class="tech-tag">Storage</span>
+            </div>
+        </div> <!-- Correct single grid closing tag -->
+
+    </section>
+
     
     <section class="purple-section">
 
