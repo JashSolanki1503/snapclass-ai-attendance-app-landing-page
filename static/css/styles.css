@@ -560,8 +560,8 @@ h4 {
 
 /* MAKE PAGE MOBILE RESPONSE STYLING */
 /* this tells the browser to if the screen width is 786px or lesser so that 
-case replace this css part and rest of the part will stay as it is and otherwise 
-apply the main desktop css */
+case replace this mentioned css part and rest of the part will stay as it is 
+and otherwise apply the main desktop css */
 @media(max-width: 768px) {
    
     /* NAVIGATION BAR */
@@ -724,10 +724,9 @@ apply the main desktop css */
         justify-content: center;
         padding: 8px;
     }
-    
+
     img {
         width: 100%;
         height: auto;
     }
-
 }
